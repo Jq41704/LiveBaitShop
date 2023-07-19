@@ -1,0 +1,165 @@
+/*
+Author: Jaren Quintana
+Date: 7/14
+Filename: services.html
+Assignment: LIVE Bait Website
+*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 75%;
+    margin: 2px;
+}
+
+h2 {
+    background-color: lightblue;
+}
+
+/*Header*/
+header {
+    text-align: center;
+    border: 2px black solid;
+    background-image: url(img/howardsbaitshop.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: lightblue;
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    margin: 0 10% 0 10%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Store Section*/
+.storecontainer {
+    border: 2px black solid;
+    text-align: center;
+}
+
+.storechoices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choice {
+    border: 2px black solid;
+    padding: 5px;
+    margin: 1.25%;
+    flex: 25%;
+}
+
+.choice p {
+    margin: 2px;
+}
+
+/*Table*/
+table {
+    border: 2px black solid;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+th {
+    border: 2px black solid;
+
+}
+
+tr {
+    border: 2px black solid;
+}
+
+td {
+    border: 2px black solid;
+}
+
+/*Services Section*/
+.services {
+    text-decoration: none;
+}
+
+.service {
+    padding: 5px;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+.serviceodd {
+    text-align: right;
+}
+
+/*Video Section*/
+.video {
+    text-align: center;
+    border: 2px black solid;
+    margin: 10px;
+    width: auto;
+}
+iframe{
+        width: 75%;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px black solid;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signupcontainer {
+    border: 2px black solid;
+    margin: 5px;
+}
+
+.socials {
+    border: 2px black solid;
+    margin: 5px;
+
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 2.5px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 2.5px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 250px) {
+
+    .services,
+    .serviceodd {
+        text-align: center;
+    }
+
+    footer {
+        justify-content: center;
+        width: 100%;
+    }
+    .img{
+        height: 100%;
+    }
+
+    .storechoices {
+        flex-direction: column;
+    }
+
+}
