@@ -6,42 +6,65 @@ Assignment: LIVE Bait Website
 */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111d13;
+    background-color: #415D43;
 }
 
 img {
     width: 75%;
     margin: 2px;
+    border: 5px#111d13 solid;
 }
 
 h2 {
-    background-color: lightblue;
+    background-color: #709775;
+    border: 5px #111d13 solid;
+    text-align: center;
 }
+.container {
+    border: 2px #111d13 solid;
+    text-align: center;
+    background-color: #a1cca5;
+    margin: 5px;
 
+}
 /*Header*/
 header {
     text-align: center;
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     background-image: url(img/howardsbaitshop.webp);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    color: lightblue;
+    color: #709775;
+    background-color: #a1cca5;
+
 }
 
 nav {
-    background-color: black;
+    background-color: #111d13;
 }
 
 nav a {
-    margin: 0 10% 0 10%;
+    margin: 0 5% 0 5%;
     text-decoration: none;
-    color: aliceblue;
-}
+    color: #709775;
 
+}
+a{
+    text-decoration: none;
+    color: #111d13;
+}
+.moreinfo{
+    border: 2px #111d13 solid;
+    background-color: #8fb996;
+
+}
 /* Store Section*/
 .storecontainer {
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     text-align: center;
+    background-color: #a1cca5;
 }
 
 .storechoices {
@@ -50,10 +73,11 @@ nav a {
 }
 
 .choice {
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     padding: 5px;
     margin: 1.25%;
     flex: 25%;
+    background-color: #8fb996;
 }
 
 .choice p {
@@ -62,23 +86,27 @@ nav a {
 
 /*Table*/
 table {
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     width: 100%;
     text-align: center;
     margin: 5px;
+    background-color: #a1cca5;
 }
 
 th {
-    border: 2px black solid;
+    border: 1px #111d13 solid;
+    background-color: #8fb996;
 
 }
 
 tr {
-    border: 2px black solid;
+    border: 1px #111d13 solid;
 }
 
 td {
-    border: 2px black solid;
+    border: 1px #111d13 solid;
+    background-color: #8fb996;
+
 }
 
 /*Services Section*/
@@ -89,7 +117,8 @@ td {
 .service {
     padding: 5px;
     margin: 10px;
-    border: 2px black solid;
+    border: 2px #111d13 solid;
+    background-color: #a1cca5;
 }
 
 .serviceodd {
@@ -98,34 +127,42 @@ td {
 
 /*Video Section*/
 .video {
+    background-color: #a1cca5;
     text-align: center;
-    border: 2px black solid;
     margin: 10px;
     width: auto;
+    border: 2px #111d13 solid;
+
 }
 iframe{
         width: 75%;
+        border: 5px #111d13 solid;
+
 }
 
 /*Footer*/
 footer {
     display: flex;
     flex-wrap: wrap;
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    background-color: #a1cca5;
+
 }
 
 .signupcontainer {
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     margin: 5px;
+    background-color: #8fb996;
+
 }
 
 .socials {
-    border: 2px black solid;
+    border: 2px #111d13 solid;
     margin: 5px;
-
+    background-color: #8fb996;
 }
 
 .column1 {
@@ -144,7 +181,10 @@ footer {
 
 /*Media Queries*/
 @media screen and (max-width: 250px) {
-
+    nav a{
+        display: flex;
+        justify-content: center;
+    }
     .services,
     .serviceodd {
         text-align: center;
